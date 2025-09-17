@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Cliente - Calculadora de Áreas</title>
+</head>
+<body>
+  <h1>Cliente - Calculadora de Áreas</h1>
+
+  <button onclick="testeCirculo()">Calcular área do círculo (r=3)</button>
+  <button onclick="testeRetangulo()">Calcular área do retângulo (4x5)</button>
+  <button onclick="testeTriangulo()">Calcular área do triângulo (base=6 altura=2)</button>
+
+  <pre id="output"></pre>
+
+  <script>
+    const out = document.getElementById('output');
+    const baseUrl = window.location.origin;
+
+    async function callArea(payload){
+      const res = await fetch(baseUrl + '/api/calculadora/area', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      const text = await res.text();
+      out.textContent += `\nREQUEST: ${JSON.stringify(payload)}\nSTATUS: ${res.status}\nRESPONSE: ${text}\n`;
+    }
+
+    function testeCirculo(){
+      callArea({ tipo: 'circulo', raio: 3 });
+    }
+    function testeRetangulo(){
+      callArea({ tipo: 'retangulo', largura: 4, altura: 5 });
+    }
+    function testeTriangulo(){
+      callArea({ tipo: 'triangulo', base: 6, alturaTriangulo: 2 });
+    }
+  </script>
+</body>
+</html>

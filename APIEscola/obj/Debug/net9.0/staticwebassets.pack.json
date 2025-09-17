@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\wwwroot\\client.html",
+      "PackagePath": "staticwebassets\\client.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.APIEscola.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.APIEscola.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.APIEscola.props",
+      "PackagePath": "build\\APIEscola.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.APIEscola.props",
+      "PackagePath": "buildMultiTargeting\\APIEscola.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.APIEscola.props",
+      "PackagePath": "buildTransitive\\APIEscola.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

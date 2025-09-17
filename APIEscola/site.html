@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cálculo de Área</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="QuadradoBtn">Quadrado</button> 
+  <button id="TrianguloBtn">Triângulo</button> 
+  <button id="CirculoBtn">Círculo</button> 
+  <button id="TrapezioBtn">Trapézio</button> 
+
+  <form id="QuadradoForm" style="display:none">
+    <label for="ladoA">LadoA:</label>
+    <input type="number" id="LadoA" name="LadoA" required />
+    <label for="LadoB">LadoB</label>
+    <input type="number" id="LadoB" name="LadoB" required />
+    <button type="submit">Enviar</button>
+  </form>
+
+  <form id="TrianguloForm" style="display:none">
+    <label for="base">Base:</label>
+    <input type="number" id="base" name="base" required />
+    <label for="altura">Altura:</label>
+    <input type="number" id="altura" name="altura" required />
+    <button type="submit">Enviar</button>
+  </form>
+
+  <form id="CirculoForm" style="display:none">
+    <label for="raio">Raio:</label>
+    <input type="number" id="raio" name="raio" required />
+    <button type="submit">Enviar</button>
+  </form>
+
+  <form id="TrapezioForm" style="display:none">
+    <label for="baseMaior">Base Maior:</label>
+    <input type="number" id="baseMaior" name="baseMaior" required />
+    <label for="baseMenor">Base Menor:</label>
+    <input type="number" id="baseMenor" name="baseMenor" required />
+    <label for="alturaTrapezio">Altura:</label>
+    <input type="number" id="alturaTrapezio" name="alturaTrapezio" required />
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div id="resultado" aria-live="polite" style="margin-top:1rem;font-weight:600"></div>
+  <p style="margin-top:1rem;color:#666">Observação: inicie a API .NET localmente (dotnet run) antes de usar os formulários.</p>
+
+  <script src="API.js"></script>
+</body>
+</html>

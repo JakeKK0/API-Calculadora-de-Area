@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "HOkhUP1CsXZM7k80G8WiUuK3/WWqOOaI7dNmgPao8M8=",
+  "Source": "APIEscola",
+  "BasePath": "_content/APIEscola",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "APIEscola\\wwwroot",
+      "Source": "APIEscola",
+      "ContentRoot": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\wwwroot\\",
+      "BasePath": "_content/APIEscola",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\obj\\Debug\\net9.0\\compressed\\xryw5emeiw-rfo8rb9vnw.gz",
+      "SourceId": "APIEscola",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/APIEscola",
+      "RelativePath": "client#[.{fingerprint=rfo8rb9vnw}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\wwwroot\\client.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wz963x8zgt",
+      "Integrity": "HL9/38vYBF0/EB8qUTaqjURiezT7zW6PZtDDUQUKjQw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\wwwroot\\client.html"
+    },
+    {
+      "Identity": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\wwwroot\\client.html",
+      "SourceId": "APIEscola",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\wwwroot\\",
+      "BasePath": "_content/APIEscola",
+      "RelativePath": "client#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rfo8rb9vnw",
+      "Integrity": "SXtoPacUkR3vt2XSM6tyQge9NVB4qpGtwmQaeD1My38=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\client.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "client.html",
+      "AssetFile": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\obj\\Debug\\net9.0\\compressed\\xryw5emeiw-rfo8rb9vnw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001636661211"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "610"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HL9/38vYBF0/EB8qUTaqjURiezT7zW6PZtDDUQUKjQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Sep 2025 22:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SXtoPacUkR3vt2XSM6tyQge9NVB4qpGtwmQaeD1My38=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SXtoPacUkR3vt2XSM6tyQge9NVB4qpGtwmQaeD1My38="
+        }
+      ]
+    },
+    {
+      "Route": "client.html",
+      "AssetFile": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\wwwroot\\client.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1293"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SXtoPacUkR3vt2XSM6tyQge9NVB4qpGtwmQaeD1My38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Sep 2025 22:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SXtoPacUkR3vt2XSM6tyQge9NVB4qpGtwmQaeD1My38="
+        }
+      ]
+    },
+    {
+      "Route": "client.html.gz",
+      "AssetFile": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\obj\\Debug\\net9.0\\compressed\\xryw5emeiw-rfo8rb9vnw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HL9/38vYBF0/EB8qUTaqjURiezT7zW6PZtDDUQUKjQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Sep 2025 22:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HL9/38vYBF0/EB8qUTaqjURiezT7zW6PZtDDUQUKjQw="
+        }
+      ]
+    },
+    {
+      "Route": "client.rfo8rb9vnw.html",
+      "AssetFile": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\obj\\Debug\\net9.0\\compressed\\xryw5emeiw-rfo8rb9vnw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001636661211"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "610"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HL9/38vYBF0/EB8qUTaqjURiezT7zW6PZtDDUQUKjQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Sep 2025 22:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SXtoPacUkR3vt2XSM6tyQge9NVB4qpGtwmQaeD1My38=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rfo8rb9vnw"
+        },
+        {
+          "Name": "label",
+          "Value": "client.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SXtoPacUkR3vt2XSM6tyQge9NVB4qpGtwmQaeD1My38="
+        }
+      ]
+    },
+    {
+      "Route": "client.rfo8rb9vnw.html",
+      "AssetFile": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\wwwroot\\client.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1293"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SXtoPacUkR3vt2XSM6tyQge9NVB4qpGtwmQaeD1My38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Sep 2025 22:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rfo8rb9vnw"
+        },
+        {
+          "Name": "label",
+          "Value": "client.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SXtoPacUkR3vt2XSM6tyQge9NVB4qpGtwmQaeD1My38="
+        }
+      ]
+    },
+    {
+      "Route": "client.rfo8rb9vnw.html.gz",
+      "AssetFile": "C:\\Users\\55119\\Pictures\\Meus Projetos\\API\\APIEscola\\obj\\Debug\\net9.0\\compressed\\xryw5emeiw-rfo8rb9vnw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HL9/38vYBF0/EB8qUTaqjURiezT7zW6PZtDDUQUKjQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Sep 2025 22:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rfo8rb9vnw"
+        },
+        {
+          "Name": "label",
+          "Value": "client.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HL9/38vYBF0/EB8qUTaqjURiezT7zW6PZtDDUQUKjQw="
+        }
+      ]
+    }
+  ]
+}
