@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http;
+using System.Net.Http.Json;
 using System;
 using APIEscola.Models;
 
@@ -69,4 +71,34 @@ public class CalculadoraController : ControllerBase
 				return BadRequest(new { message = "Tipo desconhecido. Use: circulo, retangulo, triangulo, quadrado, trapezio." });
 		}
 	}
+    private readonly HttpClient _httpClient;
+
+    public CalculadoraController()
+    {
+        _httpClient = new HttpClient();
+    }
+
+    [HttpGet("calcular-area")]
+    public async Task<IActionResult> CalcularAreaViaSite()
+    {
+        // 1. Consumir dados do usuário via GET
+        var getUrl = "http://127.0.0.1:5500/site.html";
+        // Supondo que o site retorne um JSON com os dados necessários
+        var dados = await _httpClient.GetFromJsonAsync<AreaRequest>(getUrl);
+        if (dados == null)
+            return BadRequest("Dados não encontrados");
+
+        // 2. Calcular área (exemplo para retângulo)
+        double area = dados.Base * dados.Altura;
+
+        // 3. Enviar resultado via POST
+        var postUrl = "http://127.0.0.1:5500/api/resultado"; // Ajuste depois se necessário
+        var resultado = new { area = area };
+        var response = await _httpClient.PostAsJsonAsync(postUrl, resultado);
+
+        if (!response.IsSuccessStatusCode)
+            return StatusCode((int)response.StatusCode, "Falha ao enviar resultado");
+
+        return Ok(resultado);
+    }
 }
